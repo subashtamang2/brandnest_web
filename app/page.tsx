@@ -1,9 +1,13 @@
+import Home from '@/components/Home/Home'
 import React from 'react'
+import Homepage from './home/page'
 
-const Homepage = () => {
+const Page = () => {
   return (
-    <div className='text-red-600 '>Lorem </div>
+    <div>
+      <Homepage />
+    </div>
   )
 }
 
-export default Homepage
+export default Page
