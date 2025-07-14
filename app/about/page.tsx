@@ -1,6 +1,6 @@
 
 
-const Homepage = () => {
+const Aboutpage = () => {
   return (
     <div>
       hello about
@@ -9,4 +9,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Aboutpage

@@ -1,12 +1,11 @@
-import Navbar from "./components/navbar"
+import React from 'react'
 
-const Homepage = () => {
+const page = () => {
   return (
     <div>
-      <Navbar />
 
     </div>
   )
 }
 
-export default Homepage
+export default page
