@@ -2,8 +2,11 @@
 
 const Aboutpage = () => {
   return (
-    <div>
-      hello about
+    <div className="mt-50">
+      <div className="bg-blue-950">
+
+      </div>
+
 
     </div>
   )
