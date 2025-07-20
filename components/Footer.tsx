@@ -3,27 +3,27 @@ import { LuNetwork } from 'react-icons/lu'
 
 const Footer = () => {
   return (
-    <div className='pt-16 pb-16 bg-blue-950'>
-      <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-10 items-start'>
+    <div className='pt-16 pb-16 bg-[#180161]'>
+      <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-10 items-start text-white'>
         {/*  1 st part */}
         <div className='xl:col-span-2'>
 
           {/* logo */}
           <div className='flex items-center space-x-2'>
-            <img src="/images/logo.png" alt="brandnest logo " className='w-10 h-10 bg-cyan-800  rounded-full flex items-center justify-center flex-col' />
+            <img src="/images/logo.png" alt="brandnest logo " className='w-10 h-10  rounded-full flex items-center justify-center flex-col' />
 
 
           </div>
-          <p className='mt-4 text-sm text-gray-600 dark:text-gray-400'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque vero odit quam quis, fuga reiciendis ab minus amet consequatur repudiandae?</p>
+          <p className='mt-4 text-sm text-gray-600 dark:text-gray-400'>We help businesses grow with stunning branding, web design, and digital marketing solutions. Let’s craft a unique identity for your brand!</p>
           {/* call */}
           <div className='mt-5'>
             <h1 className='lg:text-xl text-base text-gray-700 dark:text-gray-300 font-medium'>Call Us</h1>
-            <p className='mt-1 text-gray-600 dark:text-gray-300 lg:text-lg text-base font-bold'>+9765534343</p>
+            <p className='mt-1 text-gray-600 dark:text-gray-300 lg:text-lg text-base font-bold'>+977 9765577682</p>
           </div>
           {/* address */}
-          <p className='text-sm text-gray-600 dark:text-gray-400 mt-4'>Dhaka Tangail</p>
-          <p className='text-sm text-gray-600 dark:text-gray-400 mt-2'>Dhaka tangai Banagaledesh</p>
-          <p className='text-sm text-gray-600 dark:text-gray-400 mt-2'>example@gmail.com</p>
+          <p className='text-sm text-gray-600 dark:text-gray-400 mt-4'>Boudha,Kathmandu</p>
+
+          <p className='text-sm text-gray-600 dark:text-gray-400 mt-2'>Info@brandnestsolutions.com</p>
         </div>
 
         {/* Second part  */}
