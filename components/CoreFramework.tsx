@@ -47,7 +47,7 @@ const CoreFramework = () => {
 
               {/* Card with fixed height */}
               <div className="bg-white shadow-lg p-6 rounded-xl transition-transform hover:scale-105 duration-300 h-[250px] flex flex-col justify-between">
-                <h3 className="text-3xl font-bold text-pink-600 ">{item.title}</h3>
+                <h3 className="text-3xl font-bold text-pink-600">{item.title}</h3>
                 <p className="text-gray-600">{item.description}</p>
               </div>
             </div>
