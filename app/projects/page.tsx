@@ -15,12 +15,18 @@ interface Project {
 const categories: Category[] = ["All", "Logo & Branding", "Website Design", "Graphic Design", "Marketing"];
 
 const projects: Project[] = [
-  { id: 1, title: "Shanvi Engineering", category: "Logo & Branding", imageUrl: "/images/shanvi.png" },
-  { id: 2, title: "Somaya Technologies", category: "Logo & Branding", imageUrl: "/images/somaya.png" },
-  { id: 3, title: "Zyotis Guru", category: "Logo & Branding", imageUrl: "/images/zyotis.png" },
-  { id: 4, title: "NextSoft Website", category: "Website Design", imageUrl: "/images/nextsoft.png" },
-  { id: 5, title: "Creative Flyer", category: "Graphic Design", imageUrl: "/images/flyer.png" },
-  { id: 6, title: "Social Campaign", category: "Marketing", imageUrl: "/images/social.png" },
+  { id: 1, title: "Shanvi Engineering", category: "Logo & Branding", imageUrl: "/images/abu.jpg" },
+  { id: 2, title: "Somaya Technologies", category: "Logo & Branding", imageUrl: "/images/chiya.jpg" },
+  { id: 3, title: "Zyotis Guru", category: "Logo & Branding", imageUrl: "/images/denim.jpg" },
+  { id: 4, title: "Zyotis Guru", category: "Logo & Branding", imageUrl: "/images/goley.jpg" }, { id: 3, title: "Zyotis Guru", category: "Logo & Branding", imageUrl: "/images/krishna.jpg" },
+  { id: 5, title: "NextSoft Website", category: "Website Design", imageUrl: "/images/branding1.png" },
+  { id: 6, title: "NextSoft Website", category: "Website Design", imageUrl: "/images/branding2.png" },
+  { id: 7, title: "NextSoft Website", category: "Website Design", imageUrl: "/images/branding3.png" },
+  { id: 8, title: "NextSoft Website", category: "Website Design", imageUrl: "/images/branding4.png" },
+  { id: 9, title: "NextSoft Website", category: "Website Design", imageUrl: "/images/branding5.png" },
+  { id: 10, title: "NextSoft Website", category: "Website Design", imageUrl: "/images/branding6.png" },
+  { id: 11, title: "Creative Flyer", category: "Graphic Design", imageUrl: "/images/flyer.png" },
+  { id: , title: "Social Campaign", category: "Marketing", imageUrl: "/images/social.png" },
 ];
 
 const Projects: React.FC = () => {
@@ -57,8 +63,8 @@ const Projects: React.FC = () => {
             whileTap={{ scale: 0.95 }}
             onClick={() => setSelectedCategory(cat)}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedCategory === cat
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-800 hover:bg-blue-500 hover:text-white"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-800 hover:bg-blue-500 hover:text-white"
               }`}
           >
             {cat}
